@@ -18,6 +18,6 @@
  1. 下载最新Chrome浏览器，并查看版本。
  在[https://npm.taobao.org/mirrors/chromedriver/](https://npm.taobao.org/mirrors/chromedriver/)处选择对应浏览器版本的Chromedriver文件下载。
  2. 安装selenium包。
- 3. 将Chromedriver文件命名为Chromedriver.exe放到py文件统一文件夹下，修改config为自己的账号密码，如果只想填报自己的信息，删掉其他user即可。
+ 3. 将Chromedriver文件命名为Chromedriver放到py文件统一文件夹下，修改config为自己的账号密码，如果只想填报自己的信息，删掉其他user即可。
  4. 运行py文件。
 
