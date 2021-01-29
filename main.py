@@ -71,7 +71,7 @@ def daily_report(drv, cfg):
     find_element_by_class_keyword(drv, 'mint-msgbox-confirm', '确定').click()  
 
 def run(profile):
-    driver = webdriver.Chrome("Chromedriver.exe")
+    driver = webdriver.Chrome(executable_path="Chromedriver.exe")
     try:
         driver.get(daily_report_url)
         login(driver, profile)
