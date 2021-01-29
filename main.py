@@ -7,6 +7,7 @@ import time
 import datetime
 import traceback
 
+
 def wait_element_by_class_name(drv, class_name, timeout):
     WebDriverWait(drv, timeout).until(lambda d: d.find_element_by_class_name(class_name))
 
